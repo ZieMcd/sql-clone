@@ -16,3 +16,5 @@ typedef enum {
 typedef enum { EXCUTE_SUCCESS, EXCUTE_TABLE_FULL } ExecuteResult;
 
 typedef enum { STATEMENT_INSERT, STATEMENT_SELECT } StatementType;
+
+typedef enum { NODE_INTERNAL, NODE_LEAF } NodeType;
